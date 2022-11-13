@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background-color: #24282f;
+  }
+  .Main {
+    margin-top: 90px;
+    width: 100%;
+    min-height: 110vh;
+  }
+  .CardGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  .Main > img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  }
+  .Card {
+    width: 90%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .Card img {
+    width: 90%;
+    height: 100%;
+  }
+  .Overlay {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    align-items: flex-end;
+    vertical-align: center;
+    z-index: 5;
+    color: #fff;
+    font-family: netflix;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .Overlay h3 {
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }  
